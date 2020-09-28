@@ -28,7 +28,5 @@ namespace LibraryC
             }
             return strings;
         }
-
-
     }
 }

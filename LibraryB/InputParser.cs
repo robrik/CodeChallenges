@@ -5,7 +5,7 @@ namespace LibraryB
 {
     public class InputParser
     {
-        public static IEnumerable<char[][]> ParseForProblemC(IEnumerable<IEnumerable<string>> testCases)
+        public static IEnumerable<char[][]> ParseForProblemB(IEnumerable<IEnumerable<string>> testCases)
         {
             return testCases.Select(map => map.Select(line => line.ToCharArray()).ToArray());      
         }
